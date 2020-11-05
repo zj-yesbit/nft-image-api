@@ -1,10 +1,10 @@
 module.exports = {
   "1": {
-    "name": "Glod",
+    "name": "Bronze",
     "Description": "It is most common available item in SwapAll ecosystem"
   },
   "2": {
-    "name": "Silver",
+    "name": "Bronze",
     "Description": "It is most common available item in SwapAll ecosystem"
   },
   "3": {

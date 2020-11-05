@@ -20,17 +20,17 @@ app.get('/', function(req, res) {
 
 app.get('/api/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
-  const nft = db[tokenId]
+  const nft = db[1]
   const  Description = nft.Description
   const data = {
     'description' : Description,
-    'image': `${HOST}/${tokenId}.png`,
+    'image': `${HOST}/${1}.png`,
     'name': nft.name
   }
   res.send(data)
 })
 
 app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
+  console.log('NFT app is running on port', app.get('port'));
 })
 
