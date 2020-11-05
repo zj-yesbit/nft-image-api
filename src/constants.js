@@ -1,4 +1,4 @@
-const HOST = 'https://storage.googleapis.com/opensea-prod.appspot.com'
+const HOST = 'https://swapallapk.oss-cn-hongkong.aliyuncs.com/NFT-IMAGE'
 
 module.exports = {
   HOST
